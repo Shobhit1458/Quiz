@@ -15,7 +15,7 @@ function App() {
     checkAnswer,
   } = useGlobalContext()
   if (waiting) {
-    return <SetupForm />
+    return <SetupForm/>
   }
   if (loading) {
     return <Loading />
